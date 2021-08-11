@@ -14,9 +14,9 @@ logging.basicConfig(level=logging.INFO)
     & ~ filters.edited 
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAFF-KFg-jaEvlhu_kNknYQjxsuyDvp--AACjAMAAtpWSVeocCICILIfRSAE")
+    await message.reply_sticker("CAACAgUAAxkBAALxUmEUIrKOslVsn8uz8yQToQABnjxg9gACsAMAAhdBoFRTjeCNrUap-h4E")
     await message.reply_text(
-        f"""👋🏻 Hallo, Nama saya [{PROJECT_NAME}](https://telegra.ph/file/ed136c19e7f6afddb4912.jpg)
+        f"""👋🏻 Hallo, Nama saya [{PROJECT_NAME}](https://telegra.ph/file/88719c3a2b09ed4ca418c.jpg)
 Dikekolah oleh {OWNER}
 ・✦▭▭▭▭✧◦✦◦✧▭▭▭▭✦ ・
 ☑️ Saya memiliki banyak fitur untuk anda yang suka lagu
@@ -40,8 +40,7 @@ Dikekolah oleh {OWNER}
                     InlineKeyboardButton(
                         "ᴄʜᴀɴɴᴇʟ 📣", url=f"https://t.me/{UPDATES_CHANNEL}")],
                 [
-                    InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"),
-                    InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")
+                    InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://t.me/{OWNER}")
                 ]        
             ]
         ),
@@ -58,7 +57,7 @@ async def gstart(_, message: Message):
                     [InlineKeyboardButton(text = '🔵 ᴏᴡɴᴇʀ', url = f"t.me/{OWNER}")],
                     [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
                      InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-                    [InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
+                    [InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://t.me/{OWNER}")]
                 ]
         ),
     )
@@ -101,7 +100,7 @@ def map(pos):
              InlineKeyboardButton(text = 'ᴛᴀᴍʙᴀʜᴋᴀɴ ➕', url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
              InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-            [InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
+            [InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://t.me/{OWNER}")]
         ]
     else:
         button = [
@@ -127,7 +126,7 @@ async def admincache(client, message: Message):
                     [InlineKeyboardButton(text = '🔵 ᴏᴡɴᴇʀ', url = f"t.me/{OWNER}")],
                     [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
                      InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-                    [InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
+                    [InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://t.me/{OWNER}")]
                 ]
         ),
     )
@@ -180,7 +179,7 @@ Semua Perintah Bisa Digunakan Kecuali Perintah /player /skip /pause /resume  /en
                     [InlineKeyboardButton(text = '🔵 ᴏᴡɴᴇʀ', url = f"t.me/{OWNER}")],
                     [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
                      InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-                    [InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
+                    [InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://t.me/{OWNER}")]
                 ]
         ),
     )
